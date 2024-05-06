@@ -25,7 +25,7 @@ export async function imagineScenario(
     console.log("Imagine.loading", uri, "progress", progress);
   });
 
-  console.log({ Imagine });
+  
 
   if (!Imagine) {
     return;
@@ -41,7 +41,16 @@ export async function imagineScenario(
     },
   });
 
-  console.log({ Upscale });
+  
+
+  //return uri from Upscale
+  if (Upscale){
+    const uri = Upscale.uri;
+    console.log({ uri });
+    return uri;
+  }
+ 
+
 
   client.Close();
 }
