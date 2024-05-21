@@ -8,8 +8,10 @@ const port = 3000;
 app.use(express.json());
 
 app.post('/imagine', (req: Request, res: Response) => {
-  const prompt = req.body.prompt as string;
+  const prompt = req.body.prompt;
+ 
 
+  console.log('Received prompt:', prompt);
   if (!prompt) {
     res.status(400).send('Missing prompt parameter');
     return;
