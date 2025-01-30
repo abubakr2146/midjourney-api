@@ -36,19 +36,17 @@
   "homepage": "https://github.com/erictik/midjourney-client#readme",
   "devDependencies": {
     "@types/async": "^3.2.20",
-    "@types/express": "^4.17.21",
-    "@types/node": "^18.19.31",
+    "@types/node": "^18.16.0",
     "@types/ws": "^8.5.4",
     "dotenv": "^16.0.3",
     "prettier": "^2.8.8",
-    "ts-node": "^10.9.2",
+    "ts-node": "^10.9.1",
     "tsx": "^3.12.6",
-    "typescript": "^5.4.5"
+    "typescript": "^5.0.4"
   },
   "dependencies": {
     "@huggingface/inference": "^2.5.0",
     "async": "^3.2.4",
-    "express": "^4.19.2",
     "isomorphic-ws": "^5.0.0",
     "semiver": "^1.1.0",
     "snowyflake": "^2.0.0",
