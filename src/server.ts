@@ -1,4 +1,4 @@
-
+//@ts-ignore
 import express, { Request, Response } from 'express';
 import { imagineScenario } from './imagine';
 
